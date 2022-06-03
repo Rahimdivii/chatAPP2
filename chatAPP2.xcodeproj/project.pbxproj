@@ -14,6 +14,17 @@
 		EF45A5372844A038006F44DC /* chatAPP2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EF45A5352844A038006F44DC /* chatAPP2.xcdatamodeld */; };
 		EF45A5392844A03C006F44DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF45A5382844A03C006F44DC /* Assets.xcassets */; };
 		EF45A53C2844A03C006F44DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF45A53A2844A03C006F44DC /* LaunchScreen.storyboard */; };
+		EF45A5512844A8C8006F44DC /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF45A5502844A8C8006F44DC /* Model.swift */; };
+		EF45A5532844A973006F44DC /* sampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF45A5522844A973006F44DC /* sampleData.swift */; };
+		EF5E8DE228487972000747DE /* ChatLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5E8DE028487972000747DE /* ChatLog.swift */; };
+		EF5E8DE328487972000747DE /* ChatLog.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF5E8DE128487972000747DE /* ChatLog.xib */; };
+		EF5E8DE52848809B000747DE /* CustomeViewForBottom.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF5E8DE42848809B000747DE /* CustomeViewForBottom.xib */; };
+		EF5E8DE8284880E4000747DE /* CustomeViewForBottom.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5E8DE7284880E4000747DE /* CustomeViewForBottom.swift */; };
+		EF5E8DEB2848942D000747DE /* ChatSMSCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5E8DE92848942D000747DE /* ChatSMSCell.swift */; };
+		EF5E8DEC2848942D000747DE /* ChatSMSCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF5E8DEA2848942D000747DE /* ChatSMSCell.xib */; };
+		EF5E8DEE2848D4B1000747DE /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5E8DED2848D4B1000747DE /* Extensions.swift */; };
+		EF711CF728450FEF00EE42D2 /* InfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF711CF528450FEF00EE42D2 /* InfoCell.swift */; };
+		EF711CF828450FEF00EE42D2 /* InfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF711CF628450FEF00EE42D2 /* InfoCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +37,17 @@
 		EF45A5382844A03C006F44DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF45A53B2844A03C006F44DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF45A53D2844A03C006F44DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF45A5502844A8C8006F44DC /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		EF45A5522844A973006F44DC /* sampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sampleData.swift; sourceTree = "<group>"; };
+		EF5E8DE028487972000747DE /* ChatLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatLog.swift; sourceTree = "<group>"; };
+		EF5E8DE128487972000747DE /* ChatLog.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatLog.xib; sourceTree = "<group>"; };
+		EF5E8DE42848809B000747DE /* CustomeViewForBottom.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomeViewForBottom.xib; sourceTree = "<group>"; };
+		EF5E8DE7284880E4000747DE /* CustomeViewForBottom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomeViewForBottom.swift; sourceTree = "<group>"; };
+		EF5E8DE92848942D000747DE /* ChatSMSCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatSMSCell.swift; sourceTree = "<group>"; };
+		EF5E8DEA2848942D000747DE /* ChatSMSCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatSMSCell.xib; sourceTree = "<group>"; };
+		EF5E8DED2848D4B1000747DE /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		EF711CF528450FEF00EE42D2 /* InfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoCell.swift; sourceTree = "<group>"; };
+		EF711CF628450FEF00EE42D2 /* InfoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InfoCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +80,11 @@
 		EF45A52B2844A038006F44DC /* chatAPP2 */ = {
 			isa = PBXGroup;
 			children = (
+				EF5E8DE6284880C2000747DE /* CustomeView */,
+				EF45A5432844A58D006F44DC /* ChatRoom */,
 				EF45A52C2844A038006F44DC /* AppDelegate.swift */,
 				EF45A52E2844A038006F44DC /* SceneDelegate.swift */,
+				EF5E8DED2848D4B1000747DE /* Extensions.swift */,
 				EF45A5302844A038006F44DC /* ViewController.swift */,
 				EF45A5322844A038006F44DC /* Main.storyboard */,
 				EF45A5382844A03C006F44DC /* Assets.xcassets */,
@@ -68,6 +93,62 @@
 				EF45A5352844A038006F44DC /* chatAPP2.xcdatamodeld */,
 			);
 			path = chatAPP2;
+			sourceTree = "<group>";
+		};
+		EF45A5432844A58D006F44DC /* ChatRoom */ = {
+			isa = PBXGroup;
+			children = (
+				EF45A5472844A5A7006F44DC /* Cell */,
+				EF45A5462844A5A1006F44DC /* View Model */,
+				EF45A5452844A59C006F44DC /* Model */,
+				EF45A5442844A596006F44DC /* View */,
+			);
+			path = ChatRoom;
+			sourceTree = "<group>";
+		};
+		EF45A5442844A596006F44DC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EF5E8DE028487972000747DE /* ChatLog.swift */,
+				EF5E8DE128487972000747DE /* ChatLog.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EF45A5452844A59C006F44DC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EF45A5502844A8C8006F44DC /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EF45A5462844A5A1006F44DC /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				EF45A5522844A973006F44DC /* sampleData.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		EF45A5472844A5A7006F44DC /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				EF5E8DE92848942D000747DE /* ChatSMSCell.swift */,
+				EF5E8DEA2848942D000747DE /* ChatSMSCell.xib */,
+				EF711CF528450FEF00EE42D2 /* InfoCell.swift */,
+				EF711CF628450FEF00EE42D2 /* InfoCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		EF5E8DE6284880C2000747DE /* CustomeView */ = {
+			isa = PBXGroup;
+			children = (
+				EF5E8DE42848809B000747DE /* CustomeViewForBottom.xib */,
+				EF5E8DE7284880E4000747DE /* CustomeViewForBottom.swift */,
+			);
+			path = CustomeView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,8 +210,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF45A53C2844A03C006F44DC /* LaunchScreen.storyboard in Resources */,
+				EF711CF828450FEF00EE42D2 /* InfoCell.xib in Resources */,
 				EF45A5392844A03C006F44DC /* Assets.xcassets in Resources */,
 				EF45A5342844A038006F44DC /* Main.storyboard in Resources */,
+				EF5E8DEC2848942D000747DE /* ChatSMSCell.xib in Resources */,
+				EF5E8DE52848809B000747DE /* CustomeViewForBottom.xib in Resources */,
+				EF5E8DE328487972000747DE /* ChatLog.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,10 +226,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF45A5512844A8C8006F44DC /* Model.swift in Sources */,
 				EF45A5372844A038006F44DC /* chatAPP2.xcdatamodeld in Sources */,
 				EF45A5312844A038006F44DC /* ViewController.swift in Sources */,
 				EF45A52D2844A038006F44DC /* AppDelegate.swift in Sources */,
 				EF45A52F2844A038006F44DC /* SceneDelegate.swift in Sources */,
+				EF45A5532844A973006F44DC /* sampleData.swift in Sources */,
+				EF5E8DEE2848D4B1000747DE /* Extensions.swift in Sources */,
+				EF5E8DE8284880E4000747DE /* CustomeViewForBottom.swift in Sources */,
+				EF5E8DE228487972000747DE /* ChatLog.swift in Sources */,
+				EF711CF728450FEF00EE42D2 /* InfoCell.swift in Sources */,
+				EF5E8DEB2848942D000747DE /* ChatSMSCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

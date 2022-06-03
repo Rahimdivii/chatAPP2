@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CustomeViewForBottom" customModule="chatAPP2" customModuleProvider="target">
+            <connections>
+                <outlet property="backGroundView" destination="nAM-cR-C1T" id="zGg-pT-MFB"/>
+                <outlet property="bcViewHeight" destination="kax-dw-N0g" id="2An-br-IyX"/>
+                <outlet property="messageTextView" destination="BjC-iz-Kvn" id="dGl-x1-gyS"/>
+                <outlet property="senderButton" destination="JEv-cH-ZC5" id="Pv8-cE-bhc"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="345" height="69"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nAM-cR-C1T">
+                    <rect key="frame" x="30" y="10" width="285" height="45"/>
+                    <subviews>
+                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Lorem ipsu" translatesAutoresizingMaskIntoConstraints="NO" id="BjC-iz-Kvn">
+                            <rect key="frame" x="24" y="0.0" width="201" height="40"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="textColor" systemColor="labelColor"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                        </textView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JEv-cH-ZC5">
+                            <rect key="frame" x="235" y="10" width="30" height="30"/>
+                            <color key="backgroundColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="30" id="Fw8-x7-UJx"/>
+                                <constraint firstAttribute="height" constant="30" id="KTz-JQ-Df6"/>
+                            </constraints>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" image="arrow.up" catalog="system"/>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.94901960784313721" green="0.94901960784313721" blue="0.94901960784313721" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="JEv-cH-ZC5" firstAttribute="bottom" secondItem="BjC-iz-Kvn" secondAttribute="bottom" id="Icu-bQ-xBk"/>
+                        <constraint firstItem="JEv-cH-ZC5" firstAttribute="top" secondItem="nAM-cR-C1T" secondAttribute="top" constant="10" id="OY5-9F-w50"/>
+                        <constraint firstItem="JEv-cH-ZC5" firstAttribute="leading" secondItem="BjC-iz-Kvn" secondAttribute="trailing" constant="10" id="QAV-6Z-fen"/>
+                        <constraint firstItem="BjC-iz-Kvn" firstAttribute="top" secondItem="nAM-cR-C1T" secondAttribute="top" id="ZAx-Za-drT"/>
+                        <constraint firstItem="BjC-iz-Kvn" firstAttribute="leading" secondItem="nAM-cR-C1T" secondAttribute="leading" constant="24" id="hCH-KW-2UY"/>
+                        <constraint firstAttribute="bottom" secondItem="JEv-cH-ZC5" secondAttribute="bottom" constant="5" id="hZA-JV-0Pp"/>
+                        <constraint firstAttribute="height" constant="45" id="kax-dw-N0g"/>
+                        <constraint firstAttribute="trailing" secondItem="JEv-cH-ZC5" secondAttribute="trailing" constant="20" id="ulG-r2-zUc"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="nAM-cR-C1T" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="30" id="Wfj-rt-tVX"/>
+                <constraint firstItem="nAM-cR-C1T" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="dye-aW-kLe"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="nAM-cR-C1T" secondAttribute="bottom" constant="14" id="hOV-uY-C4r"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="nAM-cR-C1T" secondAttribute="trailing" constant="30" id="zGh-Lm-Ocd"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-412.31884057971018" y="-297.65625"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="arrow.up" catalog="system" width="120" height="128"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -15,5 +15,14 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func moveChatScreen(_ sender: UIButton) {
+        
+        //let vc = UIViewController(nibName: "ChatLog", bundle: nil)
+        let vc = ChatLog.loadFromNib()
+        vc.title = "Chat Room Name Here"
+        self.navigationController?.pushViewController(vc, animated: true)
+        
+        
+    }
 }
 
